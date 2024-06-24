@@ -1,0 +1,97 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f1f4;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    background-color: #ffffff;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.left {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 50%;
+}
+
+.form-container h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.google-btn {
+    background-color: #4285F4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.google-btn:hover {
+    background-color: #1e9e5c;
+}
+
+.form-container p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 5px;
+    width: 100%;
+}
+
+label {
+    font-size: 15px;
+    color: hsl(0, 83%, 2%);
+    margin-bottom: 10px;
+}
+
+label a {
+    color: #4285F4;
+    text-decoration: none;
+}
+
+label a:hover {
+    text-decoration: underline;
+}
+
+.create-account-btn {
+    background-color: #d08411;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.create-account-btn:hover {
+    background-color: #e91e63;
+}

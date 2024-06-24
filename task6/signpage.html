@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="sideimage.png">
+        </div>
+        <div class="right">
+            <div class="form-container">
+                <h2>Sign up to Page</h2>
+                <a href="https://www.google.com">
+                    <button class="google-btn">Sign up with Google</button>
+                </a>
+                <p>or</p>
+                <form id="signupForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name" required>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Username" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <label>
+                        <input type="checkbox" name="terms" required>
+                        Creating an account means you’re okay with our <a href="#">Terms of Service</a>, <a href="#">Privacy Policy</a>, and our default <a href="#">Notification Settings</a>.
+                    </label>
+                    <button type="submit" class="create-account-btn">Create Account</button>
+                </form>
+                <script src="login.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
